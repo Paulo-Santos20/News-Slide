@@ -290,13 +290,10 @@ section {
 }
 
 
-.container {
-    display: flex;
-    flex-direction: column;
-  }
-  
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+
 
 figure.snip1208 {
   font-family: 'Raleway', Arial, sans-serif;
@@ -311,7 +308,7 @@ figure.snip1208 {
   color: #000000;
   text-align: left;
   font-size: 16px;
-  display: grid;  
+  float: left;
 }
 figure.snip1208 * {
   -webkit-box-sizing: border-box;
